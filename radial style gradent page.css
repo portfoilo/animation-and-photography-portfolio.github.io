@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+#shine-div {
+  height: 100vh;
+  background-size: 400% 400%;
+
+  background: radial-gradient(farthest-corner at top, #FFFFFF 0%, #ffb3ff 4%, #ff33ff 12.25%, #800080 31.25%, #b300b3 50%) top right/200% 200%;
+    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  font-weight: bold;
+  animation: colorChange 5s infinite alternate;
+}
+
+@keyframes colorChange {
+  to {
+    background-position: center ;
+  }
+ }
+nav{align-content: center top;}
+
+
+		

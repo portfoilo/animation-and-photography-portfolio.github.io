@@ -1,0 +1,347 @@
+*{
+   margin:0;
+   padding:0;
+   box-sizing: border-box; 
+	font-size:16px;}
+	
+img,
+iframe {
+max-width: 100%;
+height: auto;
+/* so that aspect ratio is kept even if height is declared in markup */ 
+border: 0;
+/* this stops a border if the image is inside a link */
+}
+
+/* This is a CSS comment.
+Always comment your work to explain what you're doing */ 
+body {
+font-family: arial, sans-serif;
+}
+
+/*
+background color defaults
+Note that HTML and CSS use American spelling (color not colour). */
+
+/* Note that if we want a number of different elements to have the same style, we just comma separate them. */
+header, footer {
+               text-align: center;
+               }
+
+/* TYPOGRAPHY*/
+h1 {
+    font-size:50px;
+    color: #fff; /* white */
+    text-transform: uppercase;
+   } 
+h2 {
+    font-size: 30px;
+    font-family: 'Lato', sans-serif; 
+    text-transform: uppercase;
+   }
+h3{font-size: 25px;
+	 
+	}
+p{ text-align: left;
+    text-transform: none;
+    padding-left:50px ;
+        padding-right:50px ;
+
+}
+h1,h2,p,li {
+            padding-bottom: 1em; 
+  
+}
+
+/* all text white */ 
+h1,h2,p,li {color:white}
+
+.item {
+       background-color: black;
+       padding:1%;
+       margin:1%; 
+       margin-bottom: 20px; 
+       margin-top: 20px; 
+       border-radius:10px;
+}
+/* let's bring the width in a little */
+/* check it out - we're responsive without even trying! */ 
+main {
+/* There's rarely any time you should set an explicit width. Always use max-width wherever possible. */
+     max-width: 1000px;
+/* Change the above to width: 1000px and see what happens with responsive */
+     margin-left: auto;
+     margin-right: auto; 
+      }
+
+/* let's talk about nesting */ 
+.item li {
+          margin-left: 25px;
+}
+blockquote {
+text-transform: uppercase; 
+font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+lable{
+	color : black;
+}
+
+
+
+
+
+body {
+background-color: black;
+background-image: url(BG.jpg); 
+background-repeat: no-repeat; 
+background-size: cover;
+}
+
+body {
+background-color: black;
+background-image: url(BG.jpg); 
+background-repeat: no-repeat; 
+background-size: cover;
+}
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+html{
+    background-image: url(image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    background-position: center;
+}
+body{
+    font-size: 22px;
+    line-height: 32px;
+    color: #ffffff;
+    font-family: 'Open Sans',sans-serif;
+	 text-transform: uppercase
+}
+nav{
+    background-color: #D80B0F;
+}
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+}
+nav ul li{
+    display: inline-block;
+    background-color: #D80B0F;
+}
+nav a{
+    display: block;
+    padding: 0 10px;
+    color: #fff;
+    line-height: 60px;
+    font-size: 20px;
+    text-decoration: none;
+}
+/* Hide Dropdown by Default*/
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 60px;
+}
+/* hover */
+nav a:hover{
+    background-color: #F80409;
+}
+/* Display Dropdown on Hover */
+nav ul li:hover > ul {
+    display: inherit;
+}
+/* Fisrt Tier Dropdown */
+nav ul ul li{
+    width: 370px;
+    float: none;
+    display: list-item;
+    position: left;
+	
+
+}
+
+/* ============ Second, Third and More Tiers ===========*/
+nav ul ul ul li {
+    position: relative;
+    top: -60px;
+    left: 170px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #00EB22;
+  padding: 20px;
+}
+
+
+
+
+
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+
+
+
+
+
+
+

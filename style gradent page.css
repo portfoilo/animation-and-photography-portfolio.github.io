@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {background-image: linear-gradient(to right top, #ff0000, #ff0043, #f80073, #d9009f, #a61dc3, #8355e2, #5675f6, #008fff, #00b8ff, #00d9ff, #00f1aa, #00ff16);
+    background-size: 400% 400%;
+	height: 100vh;
+
+    -webkit-animation: AnimationName 14s ease infinite;
+    -moz-animation: AnimationName 14s ease infinite;
+    animation: AnimationName 14s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+h1{font-color: black;
+    font-size: 60;}
+
+
+
+		
